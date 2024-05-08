@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,7 +17,7 @@
       type="module"
       src="http://localhost:8000/src/TimeElement-lit.js"
     ></script-->
-    <script src="TimeElement-lit.js"></script>
+    <script type="module" src="TimeElement-lit.js"></script>
     <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <!--link rel="stylesheet" href="my-video-js.css" /-->
   </head>
@@ -45,7 +45,7 @@
                 >
                 <time-element id="start-time-input"></time-element>
               </div>
-              <span class="time-span">~</span>
+              <!--span class="time-span">~</span-->
               <div class="time-group">
                 <label for="end-time-input" class="time-label">종료 시간</label>
                 <time-element id="end-time-input"></time-element>
